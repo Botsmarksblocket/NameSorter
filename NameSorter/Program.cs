@@ -17,6 +17,13 @@ namespace NameSorter
                 Console.WriteLine(name);
             }
 
+            names.Sort();
+            Console.WriteLine("\nSorted list");
+            foreach (var name in names)
+            {
+                Console.WriteLine(name);
+            }
+
         }
     }
 }
