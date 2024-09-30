@@ -24,6 +24,17 @@ namespace NameSorter
                 Console.WriteLine(name);
             }
 
+            Console.WriteLine("\nEnter name to search: ");
+            string searchName = Console.ReadLine();
+            if (names.Contains(searchName))
+            {
+                Console.WriteLine($"{searchName} is in the list.");
+            }
+            else
+            {
+                Console.WriteLine($"{searchName} is not in the list.");
+            }
+            Console.ReadKey();
         }
     }
 }
