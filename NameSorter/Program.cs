@@ -10,6 +10,13 @@ namespace NameSorter
     {
         static void Main(string[] args)
         {
+            List<string> names = new List<string>() { "Anna", "John", "Alice", "Bob", "James", "Jenny" };
+            Console.WriteLine("Original list: ");
+            foreach (var name in names)
+            {
+                Console.WriteLine(name);
+            }
+
         }
     }
 }
