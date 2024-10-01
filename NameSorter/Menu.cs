@@ -57,6 +57,10 @@ namespace NameSorter
                         InputMethods.PrintList();
                         break;
 
+                    case "sort":
+                        InputMethods.SortList();
+                        break;
+
             } while (userInput != "exit");
         }
     }
