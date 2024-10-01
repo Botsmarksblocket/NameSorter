@@ -58,3 +58,17 @@ namespace NameSorter
             PrintList();
         }
 
+        public static void RemoveName(string name)//Removes a name from the list
+        {
+            Console.Clear();
+            if (names.Contains(name))
+            {
+                names.Remove(name);
+                Console.WriteLine($"{name} was removed from the list.");
+            }
+            else
+            {
+                Console.WriteLine($"{name} does not exist in the list.");
+            }
+        }
+
