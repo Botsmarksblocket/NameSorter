@@ -42,3 +42,12 @@ namespace NameSorter
             names.Add(formattedName);
         }
 
+        public static void PrintList()//Prints all the names from the list
+        {
+            foreach (var name in names)
+            {
+                Console.WriteLine(name);
+            }
+            Console.WriteLine();
+        }
+
