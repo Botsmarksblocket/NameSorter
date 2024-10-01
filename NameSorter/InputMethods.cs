@@ -37,3 +37,8 @@ namespace NameSorter
             return char.ToUpper(name[0]) + name.Substring(1).ToLower();
         }
 
+        public static void AddNameToList(string formattedName)//Adds the formatted name to the names.list
+        {
+            names.Add(formattedName);
+        }
+
