@@ -51,3 +51,10 @@ namespace NameSorter
             Console.WriteLine();
         }
 
+        public static void SortList()//Sorts the list and prints it
+        {
+            names.Sort();
+            Console.WriteLine("Sorted list:");
+            PrintList();
+        }
+
