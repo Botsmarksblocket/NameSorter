@@ -52,6 +52,11 @@ namespace NameSorter
                         InputMethods.RemoveName(finalName);
                         break;
 
+                    case "print":
+                        Console.WriteLine("Printed list: ");
+                        InputMethods.PrintList();
+                        break;
+
             } while (userInput != "exit");
         }
     }
