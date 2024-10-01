@@ -29,6 +29,23 @@ namespace NameSorter
 
                 Console.Clear();
                 switch (userInput)
+                {
+                    case "add":
+                        name = InputMethods.EnterName("Enter the name that you want to add to the list: ");
+
+                        if (!InputMethods.ValidName(name))
+                        {
+                            Console.WriteLine("Invalid name. Please enter name with only alphabetic characters.");
+                        }
+                        else
+                        {
+                            finalName = InputMethods.CapitalizeName(name);
+                            InputMethods.AddNameToList(finalName);
+                            Console.WriteLine($"You have successully added {finalName} to the list!");
+                            break;
+                        }
+                        break;
+
             } while (userInput != "exit");
         }
     }
