@@ -27,3 +27,13 @@ namespace NameSorter
             return Regex.IsMatch(name, @"^[a-zA-ZåäöÅÄÖ]+$");
         }
 
+        public static string CapitalizeName(string name)//Makes the first letter in the name to uppercase and the subsequent lowercase
+        {
+            if (string.IsNullOrEmpty(name))
+            {
+                Console.WriteLine("Name cannot be empty");
+                return string.Empty;
+            }
+            return char.ToUpper(name[0]) + name.Substring(1).ToLower();
+        }
+
