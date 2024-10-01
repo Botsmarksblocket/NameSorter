@@ -46,6 +46,12 @@ namespace NameSorter
                         }
                         break;
 
+                    case "remove":
+                        name = InputMethods.EnterName("Enter the name that you want to remove from the list: ");
+                        finalName = InputMethods.CapitalizeName(name);
+                        InputMethods.RemoveName(finalName);
+                        break;
+
             } while (userInput != "exit");
         }
     }
