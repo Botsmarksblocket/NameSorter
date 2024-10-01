@@ -61,6 +61,12 @@ namespace NameSorter
                         InputMethods.SortList();
                         break;
 
+                    case "search":
+                        name = InputMethods.EnterName("Enter the name that you want to search for: ");
+                        finalName = InputMethods.CapitalizeName(name);
+                        InputMethods.SearchName(finalName);
+                        break;
+
             } while (userInput != "exit");
         }
     }
