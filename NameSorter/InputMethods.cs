@@ -22,3 +22,8 @@ namespace NameSorter
             return input;            
         }
 
+        public static bool ValidName(string name)//Checks that the name only contains alphabetic characters
+        {
+            return Regex.IsMatch(name, @"^[a-zA-ZåäöÅÄÖ]+$");
+        }
+
