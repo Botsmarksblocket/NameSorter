@@ -67,6 +67,14 @@ namespace NameSorter
                         InputMethods.SearchName(finalName);
                         break;
 
+                    case "exit":
+                        Console.WriteLine("You have exited the program!");
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalid input, please try again.");
+                        break;
+                }
             } while (userInput != "exit");
         }
     }
