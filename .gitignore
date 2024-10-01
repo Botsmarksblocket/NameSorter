@@ -1,0 +1,85 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific folders
+.vscode/
+.vs/
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tmp
+*.log
+*.vspscc
+*.vssscc
+.builds
+*.pidb
+*.svclog
+*.scc
+
+# Mono auto generated files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
+
+# IIS Express folder
+/IISExpress/
+
+# Local History for Visual Studio
+.localhistory/
+
+# SQL Server debug file
+*.mdf
+*.ldf
+
+# Python Tools for Visual Studio (PTVS)
+__pycache__/
+*.pyc
+
+# Others (NuGet, etc.)
+*.nupkg
+*.d.ts
+.nuget/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.gpState
