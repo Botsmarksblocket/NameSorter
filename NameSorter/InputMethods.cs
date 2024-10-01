@@ -72,3 +72,17 @@ namespace NameSorter
             }
         }
 
+        public static void SearchName(string name)//Searchs for a name from the list
+        {
+            Console.Clear();
+            if (names.Contains(name))
+            {
+                Console.WriteLine($"{name} is in the list.");
+            }
+            else
+            {
+                Console.WriteLine($"{name} does not exist in the list.");
+            }
+        }
+    }
+}
